@@ -1,6 +1,7 @@
 ## Step 1: Installing Dependencies
 
 ```bash
+# npm install
 # npm install @terrylinla/react-native-sketch-canvas --save
 ```
 
