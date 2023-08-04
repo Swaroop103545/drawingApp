@@ -8,6 +8,7 @@ import { Button } from '../../Components';
 import {styles} from './Styles'
 
 import RNSketchCanvas from '@terrylinla/react-native-sketch-canvas';
+import { Colors } from '../../../Colors';
 
 const DrawingScreen = () => {
   return (
@@ -33,7 +34,7 @@ const DrawingScreen = () => {
             strokeWidthComponent={(w) => {
               return (<View style={styles.strokeWidthButton}>
                 <View style={{
-                  backgroundColor: 'white', marginHorizontal: 2.5,
+                  backgroundColor: Colors.white, marginHorizontal: 2.5,
                   width: Math.sqrt(w / 3) * 10, height: Math.sqrt(w / 3) * 10, borderRadius: Math.sqrt(w / 3) * 10 / 2
                 }} />
               </View>
